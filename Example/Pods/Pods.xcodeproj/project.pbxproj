@@ -17,6 +17,7 @@
 				EBA30B94C88E4045AD09CB7A97F0CAF8 /* PBXTargetDependency */,
 			);
 			name = mob_secverify;
+			productName = mob_secverify;
 		};
 		38986664EBE0043A3614949E53335639 /* MOBFoundation */ = {
 			isa = PBXAggregateTarget;
@@ -26,6 +27,7 @@
 			dependencies = (
 			);
 			name = MOBFoundation;
+			productName = MOBFoundation;
 		};
 /* End PBXAggregateTarget section */
 
@@ -34,6 +36,8 @@
 		1D8D93F228E1AA3F6AD336D39227C0F6 /* Pods-CosmosMobLogin_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB7AA47C1A920B073F85164A9E5E2FE9 /* Pods-CosmosMobLogin_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		20D542634618B1D1172F622DB5E3D386 /* Pods-CosmosMobLogin_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C633E5C6ED046875F6603C618B8BAA8A /* Pods-CosmosMobLogin_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2BDAC9AC2FE5AB9BAFBF768B40256339 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		31E569102AB9957200FFFCBA /* CosmosMobLoginClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 31E5690E2AB9957200FFFCBA /* CosmosMobLoginClient.h */; };
+		31E569112AB9957200FFFCBA /* CosmosMobLoginClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E5690F2AB9957200FFFCBA /* CosmosMobLoginClient.m */; };
 		62BAEB62A5467C409415E89FD3D48FC8 /* Pods-CosmosMobLogin_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CC11BC7816850A91B20B7AD820878C /* Pods-CosmosMobLogin_Example-dummy.m */; };
 		ACAEDEB1B50B02F6D0E4E1DC17B93C57 /* CosmosMobLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 253E7EC3C3FB34DA909D3A58252DA0E8 /* CosmosMobLogin-dummy.m */; };
 		B59B9060054856FE41169A816216493C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -84,20 +88,22 @@
 		00574A22A5552215900EABEFCC9DEC92 /* Pods-CosmosMobLogin_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CosmosMobLogin_Tests.modulemap"; sourceTree = "<group>"; };
 		04DBC62DA4D62D57F72E97255B60C730 /* mob_secverify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = mob_secverify.release.xcconfig; sourceTree = "<group>"; };
 		0F48A5E342DB52E52C13021D45C63671 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CosmosMobLogin/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		15732036CC93A91ABE44A0F70D48502E /* TYRZUISDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = TYRZUISDK.xcframework; path = SecVerify/PlatformSDK/Mobile/TYRZUISDK.xcframework; sourceTree = "<group>"; };
+		15732036CC93A91ABE44A0F70D48502E /* TYRZUISDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = TYRZUISDK.xcframework; path = SecVerify/PlatformSDK/Mobile/TYRZUISDK.xcframework; sourceTree = "<group>"; };
 		16253F5D10165F0CBF84DE5CA5E217C1 /* mob_secverify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = mob_secverify.debug.xcconfig; sourceTree = "<group>"; };
 		1D7AC76D2FE0EFBDD5F9F62D6F101EEA /* CosmosMobLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CosmosMobLogin.debug.xcconfig; sourceTree = "<group>"; };
 		20B1DC26CF1FA77D8EAE9CB49E44D761 /* Pods-CosmosMobLogin_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CosmosMobLogin_Example.release.xcconfig"; sourceTree = "<group>"; };
 		20C884A5865447F03926690217B6706B /* Pods-CosmosMobLogin_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CosmosMobLogin_Tests-Info.plist"; sourceTree = "<group>"; };
 		2197F6CE9B9A8090FF1FE0C784141F5A /* CosmosMobLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CosmosMobLogin.release.xcconfig; sourceTree = "<group>"; };
 		253E7EC3C3FB34DA909D3A58252DA0E8 /* CosmosMobLogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CosmosMobLogin-dummy.m"; sourceTree = "<group>"; };
+		31E5690E2AB9957200FFFCBA /* CosmosMobLoginClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CosmosMobLoginClient.h; sourceTree = "<group>"; };
+		31E5690F2AB9957200FFFCBA /* CosmosMobLoginClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CosmosMobLoginClient.m; sourceTree = "<group>"; };
 		327AFEFBF1D386B72910A4FFDE96A2F2 /* Pods-CosmosMobLogin_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CosmosMobLogin_Example-Info.plist"; sourceTree = "<group>"; };
 		3AF16E9473CD86E184FE3EDC64FEADB8 /* CosmosMobLogin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CosmosMobLogin-prefix.pch"; sourceTree = "<group>"; };
 		40F57AE02251DC3E51731B270304BA7E /* Pods-CosmosMobLogin_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CosmosMobLogin_Example.modulemap"; sourceTree = "<group>"; };
 		492CBADE8FC22FC7C00AC008A6BD9D3C /* Pods-CosmosMobLogin_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CosmosMobLogin_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		4F916A606CA67ECCE333CBBC5ED388A4 /* Pods-CosmosMobLogin_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CosmosMobLogin_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		52A746668700ED80FBCEEA1F5983269E /* Pods-CosmosMobLogin_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CosmosMobLogin_Example-resources.sh"; sourceTree = "<group>"; };
-		5494D8FE0EF5E6842DAD938A51A4EFF1 /* SecVerify.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = SecVerify.xcframework; path = SecVerify/SecVerify.xcframework; sourceTree = "<group>"; };
+		5494D8FE0EF5E6842DAD938A51A4EFF1 /* SecVerify.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = SecVerify.xcframework; path = SecVerify/SecVerify.xcframework; sourceTree = "<group>"; };
 		640A6B28CAC1571DC494CC5AF9875E80 /* Pods-CosmosMobLogin_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CosmosMobLogin_Tests-dummy.m"; sourceTree = "<group>"; };
 		66CC11BC7816850A91B20B7AD820878C /* Pods-CosmosMobLogin_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CosmosMobLogin_Example-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -107,7 +113,7 @@
 		9201580EA059EB20912F1FE205FE8BBF /* CosmosMobLogin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CosmosMobLogin.modulemap; sourceTree = "<group>"; };
 		95CA6947B757A4C46B58F2ED2B4C2416 /* Pods-CosmosMobLogin_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CosmosMobLogin_Tests"; path = Pods_CosmosMobLogin_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		975F9C7D0095C0F79436286D191BB13A /* CosmosMobLogin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CosmosMobLogin-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E2EE114122DCA03DE17F8A3506C38D4 /* Pods-CosmosMobLogin_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CosmosMobLogin_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A2227FD6076971DED0F092379904820C /* MOBFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MOBFoundation.debug.xcconfig; sourceTree = "<group>"; };
 		A2596D202EE6026F673CEA04050C8378 /* EAccountHYSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EAccountHYSDK.framework; path = SecVerify/PlatformSDK/Telecom/EAccountHYSDK.framework; sourceTree = "<group>"; };
@@ -118,12 +124,12 @@
 		C8BD3F56D0C0D7464D2D383AB1C219D1 /* CosmosMobLogin */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CosmosMobLogin; path = CosmosMobLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB7AA47C1A920B073F85164A9E5E2FE9 /* Pods-CosmosMobLogin_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CosmosMobLogin_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D0ECF5362372AB139F9E56A984543D8E /* Pods-CosmosMobLogin_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CosmosMobLogin_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D6695EB73F8D0D1F127C7E4BEECC4EF4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D6695EB73F8D0D1F127C7E4BEECC4EF4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DAB4BD81C23C5F0282612466605E49C6 /* SecVerify.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SecVerify.bundle; path = SecVerify/SecVerify.bundle; sourceTree = "<group>"; };
-		DB0720220AA88988B124CE5AFE90E44F /* CosmosMobLogin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CosmosMobLogin.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DB0720220AA88988B124CE5AFE90E44F /* CosmosMobLogin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CosmosMobLogin.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DEFAF0764E7486F224BF0F604BA0E254 /* account_login_sdk_noui_core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = account_login_sdk_noui_core.framework; path = SecVerify/PlatformSDK/Union/account_login_sdk_noui_core.framework; sourceTree = "<group>"; };
 		E4BBD7E1EBA35F029570535843768787 /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MOBFoundation.framework; path = MOBFoundation/MOBFoundation.framework; sourceTree = "<group>"; };
-		EE3D490D67BCC75B29A3B01C2CEA8494 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		EE3D490D67BCC75B29A3B01C2CEA8494 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EFE3328BFEA3BB7980BA6F6E36B9F8B0 /* CosmosMobLogin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CosmosMobLogin-umbrella.h"; sourceTree = "<group>"; };
 		F98B7539D819D655D5BB14656F8F7211 /* Pods-CosmosMobLogin_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CosmosMobLogin_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FB6898E62AE0A9B935D2FB73F913811D /* OAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OAuth.framework; path = SecVerify/PlatformSDK/Union/OAuth.framework; sourceTree = "<group>"; };
@@ -239,7 +245,6 @@
 				870A2B977B10F342D9F8FB5E681A0E80 /* Resources */,
 				E1F7516CA107495DB3B734B1DB525C9D /* Support Files */,
 			);
-			name = mob_secverify;
 			path = mob_secverify;
 			sourceTree = "<group>";
 		};
@@ -317,7 +322,6 @@
 				99B85FEEEB8BAB05365FE5A2043A49BB /* Frameworks */,
 				27388528A5DDBFF5003AA952C8C94391 /* Support Files */,
 			);
-			name = MOBFoundation;
 			path = MOBFoundation;
 			sourceTree = "<group>";
 		};
@@ -358,6 +362,8 @@
 				0F48A5E342DB52E52C13021D45C63671 /* ReplaceMe.m */,
 				5575B5F72B2D93A477ACECFE45E672A0 /* Pod */,
 				06BB328FEEBB5B5D12DC6016782D3A22 /* Support Files */,
+				31E5690E2AB9957200FFFCBA /* CosmosMobLoginClient.h */,
+				31E5690F2AB9957200FFFCBA /* CosmosMobLoginClient.m */,
 			);
 			name = CosmosMobLogin;
 			path = ../..;
@@ -370,6 +376,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31E569102AB9957200FFFCBA /* CosmosMobLoginClient.h in Headers */,
 				DACDD38A696FB741D511894AEC13A9BB /* CosmosMobLogin-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -551,6 +558,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACAEDEB1B50B02F6D0E4E1DC17B93C57 /* CosmosMobLogin-dummy.m in Sources */,
+				31E569112AB9957200FFFCBA /* CosmosMobLoginClient.m in Sources */,
 				C92AA57CB94439D7D80D2411072A29E2 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -824,8 +832,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
