@@ -1,12 +1,12 @@
 PODS:
-  - CosmosMobLogin (0.1.0)
+  - CosmosMobLogin (0.1.0):
+    - mob_secverify
   - mob_secverify (3.4.5):
     - MOBFoundation
   - MOBFoundation (3.2.52)
 
 DEPENDENCIES:
   - CosmosMobLogin (from `../`)
-  - mob_secverify
 
 SPEC REPOS:
   trunk:
@@ -18,10 +18,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CosmosMobLogin: 15a45e19906de5242fdb6f68372cf37304c0ef2f
+  CosmosMobLogin: 1e33bcc1a026eae8e0bc9711bd4c69aec71766fc
   mob_secverify: b46b33876c9b7258881e6519f78dcc01413c0896
   MOBFoundation: 5bd55bed3c33f70f45170dbcc28eb51a0d9461ae
 
-PODFILE CHECKSUM: e21bb70ade6ae0dc976d154e5b5822b6ad09df3b
+PODFILE CHECKSUM: 460788ae79b069d1c5e804d9f8027c9f4d9a5df2
 
 COCOAPODS: 1.12.1

@@ -11,5 +11,5 @@ target 'CosmosMobLogin_Example' do
     
   end
   
-  pod 'mob_secverify'
+#  pod 'mob_secverify'
 end

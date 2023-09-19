@@ -9,19 +9,19 @@
 /* Begin PBXAggregateTarget section */
 		21C43365111AD11B075C5191E983EF9D /* mob_secverify */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = C452368F6E9D83414A0271EB76D127A4 /* Build configuration list for PBXAggregateTarget "mob_secverify" */;
+			buildConfigurationList = 135E2B2D4C58202B45F2D974127459CB /* Build configuration list for PBXAggregateTarget "mob_secverify" */;
 			buildPhases = (
-				131377F6E14E7FDF5F577B531DDF9DB4 /* [CP] Copy XCFrameworks */,
+				263733CE836D3BCA394F01A8A07D1150 /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
-				EBA30B94C88E4045AD09CB7A97F0CAF8 /* PBXTargetDependency */,
+				ED5E1B3D03BD26E856EF5652225D4078 /* PBXTargetDependency */,
 			);
 			name = mob_secverify;
 			productName = mob_secverify;
 		};
 		38986664EBE0043A3614949E53335639 /* MOBFoundation */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 9B33C3C8202FFE2203CAFCEB78B4ACD5 /* Build configuration list for PBXAggregateTarget "MOBFoundation" */;
+			buildConfigurationList = FB0155471B0706A7F6B0D884ACB4BBF5 /* Build configuration list for PBXAggregateTarget "MOBFoundation" */;
 			buildPhases = (
 			);
 			dependencies = (
@@ -32,18 +32,18 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		123CE47B073E1CB6249DB229B32FC072 /* Pods-CosmosMobLogin_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 640A6B28CAC1571DC494CC5AF9875E80 /* Pods-CosmosMobLogin_Tests-dummy.m */; };
-		1D8D93F228E1AA3F6AD336D39227C0F6 /* Pods-CosmosMobLogin_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB7AA47C1A920B073F85164A9E5E2FE9 /* Pods-CosmosMobLogin_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		20D542634618B1D1172F622DB5E3D386 /* Pods-CosmosMobLogin_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C633E5C6ED046875F6603C618B8BAA8A /* Pods-CosmosMobLogin_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		123CE47B073E1CB6249DB229B32FC072 /* Pods-CosmosMobLogin_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C66D030888A4584C68D61C8A9C42BF4A /* Pods-CosmosMobLogin_Tests-dummy.m */; };
+		1D8D93F228E1AA3F6AD336D39227C0F6 /* Pods-CosmosMobLogin_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB73A723063C969EE1119DE89290509A /* Pods-CosmosMobLogin_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20D542634618B1D1172F622DB5E3D386 /* Pods-CosmosMobLogin_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2302ABE543790CA764D416EC3D39B35D /* Pods-CosmosMobLogin_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2BDAC9AC2FE5AB9BAFBF768B40256339 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		31E569102AB9957200FFFCBA /* CosmosMobLoginClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 31E5690E2AB9957200FFFCBA /* CosmosMobLoginClient.h */; };
-		31E569112AB9957200FFFCBA /* CosmosMobLoginClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E5690F2AB9957200FFFCBA /* CosmosMobLoginClient.m */; };
-		62BAEB62A5467C409415E89FD3D48FC8 /* Pods-CosmosMobLogin_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CC11BC7816850A91B20B7AD820878C /* Pods-CosmosMobLogin_Example-dummy.m */; };
-		ACAEDEB1B50B02F6D0E4E1DC17B93C57 /* CosmosMobLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 253E7EC3C3FB34DA909D3A58252DA0E8 /* CosmosMobLogin-dummy.m */; };
-		B59B9060054856FE41169A816216493C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		C92AA57CB94439D7D80D2411072A29E2 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F48A5E342DB52E52C13021D45C63671 /* ReplaceMe.m */; };
-		DACDD38A696FB741D511894AEC13A9BB /* CosmosMobLogin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFE3328BFEA3BB7980BA6F6E36B9F8B0 /* CosmosMobLogin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31E569142AB999B900FFFCBA /* CosmosMobLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = 31E569122AB999B900FFFCBA /* CosmosMobLogin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31E569152AB999B900FFFCBA /* CosmosMobLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E569132AB999B900FFFCBA /* CosmosMobLogin.m */; };
+		3BC96734F71BCF3A31154AE8DB521F19 /* CosmosMobLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 253E7EC3C3FB34DA909D3A58252DA0E8 /* CosmosMobLogin-dummy.m */; };
+		62BAEB62A5467C409415E89FD3D48FC8 /* Pods-CosmosMobLogin_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F830D19998F202401B919B5C9F08C065 /* Pods-CosmosMobLogin_Example-dummy.m */; };
 		E571AACCB47C579AF3B2CA2EB31D7539 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EE6AE57A76E53FAE1F5F865182F81A4C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F48A5E342DB52E52C13021D45C63671 /* ReplaceMe.m */; };
+		F37C10D0CC152DC959835B6977506624 /* CosmosMobLogin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFE3328BFEA3BB7980BA6F6E36B9F8B0 /* CosmosMobLogin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC862254F586FBCB0D6A866E7B05857F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +53,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 74A541F44B4D06D403BA58B9956E49BA;
 			remoteInfo = "Pods-CosmosMobLogin_Example";
+		};
+		4F7BDBE0ECFFB40A690BBB37163637BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21C43365111AD11B075C5191E983EF9D;
+			remoteInfo = mob_secverify;
 		};
 		55EA75AB896549111650250F42E189FB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -68,7 +75,7 @@
 			remoteGlobalIDString = E78F7758C7CA85877D4E6939ECC4378E;
 			remoteInfo = CosmosMobLogin;
 		};
-		5B57FA91D67E42EBE113AD39A29D6F38 /* PBXContainerItemProxy */ = {
+		982FA3ECB316087999CD2D7FF5FB0BB8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -85,63 +92,62 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00574A22A5552215900EABEFCC9DEC92 /* Pods-CosmosMobLogin_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CosmosMobLogin_Tests.modulemap"; sourceTree = "<group>"; };
 		04DBC62DA4D62D57F72E97255B60C730 /* mob_secverify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = mob_secverify.release.xcconfig; sourceTree = "<group>"; };
 		0F48A5E342DB52E52C13021D45C63671 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CosmosMobLogin/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		12B335744E6CCDCACA16C0343A54571A /* Pods-CosmosMobLogin_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CosmosMobLogin_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		15732036CC93A91ABE44A0F70D48502E /* TYRZUISDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = TYRZUISDK.xcframework; path = SecVerify/PlatformSDK/Mobile/TYRZUISDK.xcframework; sourceTree = "<group>"; };
 		16253F5D10165F0CBF84DE5CA5E217C1 /* mob_secverify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = mob_secverify.debug.xcconfig; sourceTree = "<group>"; };
 		1D7AC76D2FE0EFBDD5F9F62D6F101EEA /* CosmosMobLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CosmosMobLogin.debug.xcconfig; sourceTree = "<group>"; };
-		20B1DC26CF1FA77D8EAE9CB49E44D761 /* Pods-CosmosMobLogin_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CosmosMobLogin_Example.release.xcconfig"; sourceTree = "<group>"; };
-		20C884A5865447F03926690217B6706B /* Pods-CosmosMobLogin_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CosmosMobLogin_Tests-Info.plist"; sourceTree = "<group>"; };
 		2197F6CE9B9A8090FF1FE0C784141F5A /* CosmosMobLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CosmosMobLogin.release.xcconfig; sourceTree = "<group>"; };
+		2302ABE543790CA764D416EC3D39B35D /* Pods-CosmosMobLogin_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CosmosMobLogin_Example-umbrella.h"; sourceTree = "<group>"; };
 		253E7EC3C3FB34DA909D3A58252DA0E8 /* CosmosMobLogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CosmosMobLogin-dummy.m"; sourceTree = "<group>"; };
-		31E5690E2AB9957200FFFCBA /* CosmosMobLoginClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CosmosMobLoginClient.h; sourceTree = "<group>"; };
-		31E5690F2AB9957200FFFCBA /* CosmosMobLoginClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CosmosMobLoginClient.m; sourceTree = "<group>"; };
-		327AFEFBF1D386B72910A4FFDE96A2F2 /* Pods-CosmosMobLogin_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CosmosMobLogin_Example-Info.plist"; sourceTree = "<group>"; };
+		31E569122AB999B900FFFCBA /* CosmosMobLogin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CosmosMobLogin.h; sourceTree = "<group>"; };
+		31E569132AB999B900FFFCBA /* CosmosMobLogin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CosmosMobLogin.m; sourceTree = "<group>"; };
 		3AF16E9473CD86E184FE3EDC64FEADB8 /* CosmosMobLogin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CosmosMobLogin-prefix.pch"; sourceTree = "<group>"; };
-		40F57AE02251DC3E51731B270304BA7E /* Pods-CosmosMobLogin_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CosmosMobLogin_Example.modulemap"; sourceTree = "<group>"; };
-		492CBADE8FC22FC7C00AC008A6BD9D3C /* Pods-CosmosMobLogin_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CosmosMobLogin_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		4F916A606CA67ECCE333CBBC5ED388A4 /* Pods-CosmosMobLogin_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CosmosMobLogin_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		52A746668700ED80FBCEEA1F5983269E /* Pods-CosmosMobLogin_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CosmosMobLogin_Example-resources.sh"; sourceTree = "<group>"; };
+		3E42D1EBE68F90D24A8FC9C80CC80906 /* Pods-CosmosMobLogin_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CosmosMobLogin_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4F17CC19E6C35D2EA11A43A72C705F75 /* Pods-CosmosMobLogin_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CosmosMobLogin_Example-resources.sh"; sourceTree = "<group>"; };
 		5494D8FE0EF5E6842DAD938A51A4EFF1 /* SecVerify.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = SecVerify.xcframework; path = SecVerify/SecVerify.xcframework; sourceTree = "<group>"; };
-		640A6B28CAC1571DC494CC5AF9875E80 /* Pods-CosmosMobLogin_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CosmosMobLogin_Tests-dummy.m"; sourceTree = "<group>"; };
-		66CC11BC7816850A91B20B7AD820878C /* Pods-CosmosMobLogin_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CosmosMobLogin_Example-dummy.m"; sourceTree = "<group>"; };
+		6D0D28FC8B9C310E12FDD02E8BE9C72F /* Pods-CosmosMobLogin_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CosmosMobLogin_Tests.modulemap"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7493745BA9A72E28A6E5984AE96D76EE /* Pods-CosmosMobLogin_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CosmosMobLogin_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7983AEFF6B259B2BBC61C249DC3634A8 /* Pods-CosmosMobLogin_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CosmosMobLogin_Example.release.xcconfig"; sourceTree = "<group>"; };
+		79A84B21D7A72D54A1382BDC4B4ED835 /* Pods-CosmosMobLogin_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CosmosMobLogin_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8384A3C90A17564F709AB4B895D08D10 /* mob_secverify-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "mob_secverify-xcframeworks.sh"; sourceTree = "<group>"; };
+		8838DDE4E23B6B6F4D05D34E0E3F2449 /* Pods-CosmosMobLogin_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CosmosMobLogin_Example.modulemap"; sourceTree = "<group>"; };
 		8AC9D2FC11FE403036A02655377DB47E /* MOBFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MOBFoundation.release.xcconfig; sourceTree = "<group>"; };
 		9201580EA059EB20912F1FE205FE8BBF /* CosmosMobLogin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CosmosMobLogin.modulemap; sourceTree = "<group>"; };
 		95CA6947B757A4C46B58F2ED2B4C2416 /* Pods-CosmosMobLogin_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CosmosMobLogin_Tests"; path = Pods_CosmosMobLogin_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		975F9C7D0095C0F79436286D191BB13A /* CosmosMobLogin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CosmosMobLogin-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E2EE114122DCA03DE17F8A3506C38D4 /* Pods-CosmosMobLogin_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CosmosMobLogin_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A2227FD6076971DED0F092379904820C /* MOBFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MOBFoundation.debug.xcconfig; sourceTree = "<group>"; };
 		A2596D202EE6026F673CEA04050C8378 /* EAccountHYSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EAccountHYSDK.framework; path = SecVerify/PlatformSDK/Telecom/EAccountHYSDK.framework; sourceTree = "<group>"; };
 		A9D32853271A3656CEADFD493A66215D /* Pods-CosmosMobLogin_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CosmosMobLogin_Example"; path = Pods_CosmosMobLogin_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB73A723063C969EE1119DE89290509A /* Pods-CosmosMobLogin_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CosmosMobLogin_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B6EACBB4642DB0B9E1A93E5732F1D468 /* Pods-CosmosMobLogin_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CosmosMobLogin_Tests-Info.plist"; sourceTree = "<group>"; };
 		BEDDCFE7B9F30FD543338AEF487C5E51 /* EAccountOpenPageResource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = EAccountOpenPageResource.bundle; path = SecVerify/PlatformSDK/Telecom/EAccountOpenPageResource.bundle; sourceTree = "<group>"; };
-		C633E5C6ED046875F6603C618B8BAA8A /* Pods-CosmosMobLogin_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CosmosMobLogin_Example-umbrella.h"; sourceTree = "<group>"; };
-		C81CE9F273C230D5C058CDBBF449905F /* Pods-CosmosMobLogin_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CosmosMobLogin_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C8BD3F56D0C0D7464D2D383AB1C219D1 /* CosmosMobLogin */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CosmosMobLogin; path = CosmosMobLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB7AA47C1A920B073F85164A9E5E2FE9 /* Pods-CosmosMobLogin_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CosmosMobLogin_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D0ECF5362372AB139F9E56A984543D8E /* Pods-CosmosMobLogin_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CosmosMobLogin_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C66D030888A4584C68D61C8A9C42BF4A /* Pods-CosmosMobLogin_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CosmosMobLogin_Tests-dummy.m"; sourceTree = "<group>"; };
+		C8BD3F56D0C0D7464D2D383AB1C219D1 /* CosmosMobLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CosmosMobLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1D2DF387054634597F6B0EE708BD4DF /* Pods-CosmosMobLogin_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CosmosMobLogin_Example-Info.plist"; sourceTree = "<group>"; };
 		D6695EB73F8D0D1F127C7E4BEECC4EF4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D94DD88293B4FBC28BA2A9354E6ADDF9 /* Pods-CosmosMobLogin_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CosmosMobLogin_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DAB4BD81C23C5F0282612466605E49C6 /* SecVerify.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SecVerify.bundle; path = SecVerify/SecVerify.bundle; sourceTree = "<group>"; };
 		DB0720220AA88988B124CE5AFE90E44F /* CosmosMobLogin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CosmosMobLogin.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DEFAF0764E7486F224BF0F604BA0E254 /* account_login_sdk_noui_core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = account_login_sdk_noui_core.framework; path = SecVerify/PlatformSDK/Union/account_login_sdk_noui_core.framework; sourceTree = "<group>"; };
 		E4BBD7E1EBA35F029570535843768787 /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MOBFoundation.framework; path = MOBFoundation/MOBFoundation.framework; sourceTree = "<group>"; };
+		E6332362F9C54F87E35702171EA79134 /* Pods-CosmosMobLogin_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CosmosMobLogin_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB08F8902F87CD47321F79F91C96E718 /* Pods-CosmosMobLogin_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CosmosMobLogin_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EE3D490D67BCC75B29A3B01C2CEA8494 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EFE3328BFEA3BB7980BA6F6E36B9F8B0 /* CosmosMobLogin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CosmosMobLogin-umbrella.h"; sourceTree = "<group>"; };
-		F98B7539D819D655D5BB14656F8F7211 /* Pods-CosmosMobLogin_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CosmosMobLogin_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F2FA5E84314584FB1B2E418385505353 /* Pods-CosmosMobLogin_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CosmosMobLogin_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F830D19998F202401B919B5C9F08C065 /* Pods-CosmosMobLogin_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CosmosMobLogin_Example-dummy.m"; sourceTree = "<group>"; };
 		FB6898E62AE0A9B935D2FB73F913811D /* OAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OAuth.framework; path = SecVerify/PlatformSDK/Union/OAuth.framework; sourceTree = "<group>"; };
-		FC5AC2C62AEF22EEDA7DD9BFE0C9102B /* Pods-CosmosMobLogin_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CosmosMobLogin_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CE6255216AAD845B5B9F98B85A4C09F8 /* Frameworks */ = {
+		B8C84DD5505464A527DE763EB286C147 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B59B9060054856FE41169A816216493C /* Foundation.framework in Frameworks */,
+				FC862254F586FBCB0D6A866E7B05857F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +170,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06A084337B0C5A03F38F2687374B9DF8 /* Pods-CosmosMobLogin_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6D0D28FC8B9C310E12FDD02E8BE9C72F /* Pods-CosmosMobLogin_Tests.modulemap */,
+				12B335744E6CCDCACA16C0343A54571A /* Pods-CosmosMobLogin_Tests-acknowledgements.markdown */,
+				3E42D1EBE68F90D24A8FC9C80CC80906 /* Pods-CosmosMobLogin_Tests-acknowledgements.plist */,
+				C66D030888A4584C68D61C8A9C42BF4A /* Pods-CosmosMobLogin_Tests-dummy.m */,
+				B6EACBB4642DB0B9E1A93E5732F1D468 /* Pods-CosmosMobLogin_Tests-Info.plist */,
+				AB73A723063C969EE1119DE89290509A /* Pods-CosmosMobLogin_Tests-umbrella.h */,
+				E6332362F9C54F87E35702171EA79134 /* Pods-CosmosMobLogin_Tests.debug.xcconfig */,
+				79A84B21D7A72D54A1382BDC4B4ED835 /* Pods-CosmosMobLogin_Tests.release.xcconfig */,
+			);
+			name = "Pods-CosmosMobLogin_Tests";
+			path = "Target Support Files/Pods-CosmosMobLogin_Tests";
+			sourceTree = "<group>";
+		};
 		06BB328FEEBB5B5D12DC6016782D3A22 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,22 +201,13 @@
 			path = "Example/Pods/Target Support Files/CosmosMobLogin";
 			sourceTree = "<group>";
 		};
-		23A14FC1AB706C053D8A20CFD5A644BB /* Pods-CosmosMobLogin_Example */ = {
+		20D8298016101AA18B769F5CC137A9D2 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				40F57AE02251DC3E51731B270304BA7E /* Pods-CosmosMobLogin_Example.modulemap */,
-				F98B7539D819D655D5BB14656F8F7211 /* Pods-CosmosMobLogin_Example-acknowledgements.markdown */,
-				492CBADE8FC22FC7C00AC008A6BD9D3C /* Pods-CosmosMobLogin_Example-acknowledgements.plist */,
-				66CC11BC7816850A91B20B7AD820878C /* Pods-CosmosMobLogin_Example-dummy.m */,
-				C81CE9F273C230D5C058CDBBF449905F /* Pods-CosmosMobLogin_Example-frameworks.sh */,
-				327AFEFBF1D386B72910A4FFDE96A2F2 /* Pods-CosmosMobLogin_Example-Info.plist */,
-				52A746668700ED80FBCEEA1F5983269E /* Pods-CosmosMobLogin_Example-resources.sh */,
-				C633E5C6ED046875F6603C618B8BAA8A /* Pods-CosmosMobLogin_Example-umbrella.h */,
-				9E2EE114122DCA03DE17F8A3506C38D4 /* Pods-CosmosMobLogin_Example.debug.xcconfig */,
-				20B1DC26CF1FA77D8EAE9CB49E44D761 /* Pods-CosmosMobLogin_Example.release.xcconfig */,
+				D821E3D55397F382664B92A4BE3DC13A /* Pods-CosmosMobLogin_Example */,
+				06A084337B0C5A03F38F2687374B9DF8 /* Pods-CosmosMobLogin_Tests */,
 			);
-			name = "Pods-CosmosMobLogin_Example";
-			path = "Target Support Files/Pods-CosmosMobLogin_Example";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		24A4D2D7AF9207CCE2CF4EDF30AA3953 /* Frameworks */ = {
@@ -231,7 +244,7 @@
 		28EEF6280E73CCDD302ACA2C283017BB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C8BD3F56D0C0D7464D2D383AB1C219D1 /* CosmosMobLogin */,
+				C8BD3F56D0C0D7464D2D383AB1C219D1 /* CosmosMobLogin.framework */,
 				A9D32853271A3656CEADFD493A66215D /* Pods-CosmosMobLogin_Example */,
 				95CA6947B757A4C46B58F2ED2B4C2416 /* Pods-CosmosMobLogin_Tests */,
 			);
@@ -266,22 +279,6 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		5771FEB69DBD3316C442D74C7463E8BC /* Pods-CosmosMobLogin_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				00574A22A5552215900EABEFCC9DEC92 /* Pods-CosmosMobLogin_Tests.modulemap */,
-				FC5AC2C62AEF22EEDA7DD9BFE0C9102B /* Pods-CosmosMobLogin_Tests-acknowledgements.markdown */,
-				4F916A606CA67ECCE333CBBC5ED388A4 /* Pods-CosmosMobLogin_Tests-acknowledgements.plist */,
-				640A6B28CAC1571DC494CC5AF9875E80 /* Pods-CosmosMobLogin_Tests-dummy.m */,
-				20C884A5865447F03926690217B6706B /* Pods-CosmosMobLogin_Tests-Info.plist */,
-				CB7AA47C1A920B073F85164A9E5E2FE9 /* Pods-CosmosMobLogin_Tests-umbrella.h */,
-				7493745BA9A72E28A6E5984AE96D76EE /* Pods-CosmosMobLogin_Tests.debug.xcconfig */,
-				D0ECF5362372AB139F9E56A984543D8E /* Pods-CosmosMobLogin_Tests.release.xcconfig */,
-			);
-			name = "Pods-CosmosMobLogin_Tests";
-			path = "Target Support Files/Pods-CosmosMobLogin_Tests";
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -307,15 +304,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9B65C7C502C69A29CC6CBB9214539AE9 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				23A14FC1AB706C053D8A20CFD5A644BB /* Pods-CosmosMobLogin_Example */,
-				5771FEB69DBD3316C442D74C7463E8BC /* Pods-CosmosMobLogin_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		9C8B41831D49B2A82F809542F4BB6C1C /* MOBFoundation */ = {
 			isa = PBXGroup;
 			children = (
@@ -333,7 +321,7 @@
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				279B0D1306B3B128ECC52F2173ECEC40 /* Pods */,
 				28EEF6280E73CCDD302ACA2C283017BB /* Products */,
-				9B65C7C502C69A29CC6CBB9214539AE9 /* Targets Support Files */,
+				20D8298016101AA18B769F5CC137A9D2 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -343,6 +331,23 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D821E3D55397F382664B92A4BE3DC13A /* Pods-CosmosMobLogin_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8838DDE4E23B6B6F4D05D34E0E3F2449 /* Pods-CosmosMobLogin_Example.modulemap */,
+				EB08F8902F87CD47321F79F91C96E718 /* Pods-CosmosMobLogin_Example-acknowledgements.markdown */,
+				D94DD88293B4FBC28BA2A9354E6ADDF9 /* Pods-CosmosMobLogin_Example-acknowledgements.plist */,
+				F830D19998F202401B919B5C9F08C065 /* Pods-CosmosMobLogin_Example-dummy.m */,
+				D1D2DF387054634597F6B0EE708BD4DF /* Pods-CosmosMobLogin_Example-Info.plist */,
+				4F17CC19E6C35D2EA11A43A72C705F75 /* Pods-CosmosMobLogin_Example-resources.sh */,
+				2302ABE543790CA764D416EC3D39B35D /* Pods-CosmosMobLogin_Example-umbrella.h */,
+				F2FA5E84314584FB1B2E418385505353 /* Pods-CosmosMobLogin_Example.debug.xcconfig */,
+				7983AEFF6B259B2BBC61C249DC3634A8 /* Pods-CosmosMobLogin_Example.release.xcconfig */,
+			);
+			name = "Pods-CosmosMobLogin_Example";
+			path = "Target Support Files/Pods-CosmosMobLogin_Example";
 			sourceTree = "<group>";
 		};
 		E1F7516CA107495DB3B734B1DB525C9D /* Support Files */ = {
@@ -362,8 +367,8 @@
 				0F48A5E342DB52E52C13021D45C63671 /* ReplaceMe.m */,
 				5575B5F72B2D93A477ACECFE45E672A0 /* Pod */,
 				06BB328FEEBB5B5D12DC6016782D3A22 /* Support Files */,
-				31E5690E2AB9957200FFFCBA /* CosmosMobLoginClient.h */,
-				31E5690F2AB9957200FFFCBA /* CosmosMobLoginClient.m */,
+				31E569122AB999B900FFFCBA /* CosmosMobLogin.h */,
+				31E569132AB999B900FFFCBA /* CosmosMobLogin.m */,
 			);
 			name = CosmosMobLogin;
 			path = ../..;
@@ -372,12 +377,12 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		490AD78D3D4B9A33CDC86320F7A23657 /* Headers */ = {
+		4B6D31F75386642C39757EF9A8074E30 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31E569102AB9957200FFFCBA /* CosmosMobLoginClient.h in Headers */,
-				DACDD38A696FB741D511894AEC13A9BB /* CosmosMobLogin-umbrella.h in Headers */,
+				F37C10D0CC152DC959835B6977506624 /* CosmosMobLogin-umbrella.h in Headers */,
+				31E569142AB999B900FFFCBA /* CosmosMobLogin.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,20 +447,21 @@
 		};
 		E78F7758C7CA85877D4E6939ECC4378E /* CosmosMobLogin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EDF94B0AEA648B2772A950F96DD99F3C /* Build configuration list for PBXNativeTarget "CosmosMobLogin" */;
+			buildConfigurationList = 7ACFA2A3253F1AFF7B0D95691C39E655 /* Build configuration list for PBXNativeTarget "CosmosMobLogin" */;
 			buildPhases = (
-				490AD78D3D4B9A33CDC86320F7A23657 /* Headers */,
-				9BC05420BBB68055283539992065B8B5 /* Sources */,
-				CE6255216AAD845B5B9F98B85A4C09F8 /* Frameworks */,
-				AEF791628D292DAEE22972E01BD73D96 /* Resources */,
+				4B6D31F75386642C39757EF9A8074E30 /* Headers */,
+				EE0D5BF6D991B4E3672E56278B1DCD17 /* Sources */,
+				B8C84DD5505464A527DE763EB286C147 /* Frameworks */,
+				6EC1911190CB5F8AE4D536031AC14609 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3065AF24309045C11311BE7C4A999422 /* PBXTargetDependency */,
 			);
 			name = CosmosMobLogin;
 			productName = CosmosMobLogin;
-			productReference = C8BD3F56D0C0D7464D2D383AB1C219D1 /* CosmosMobLogin */;
+			productReference = C8BD3F56D0C0D7464D2D383AB1C219D1 /* CosmosMobLogin.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -490,14 +496,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A383E0FF1FF0854433C350FA3B1DBF56 /* Resources */ = {
+		6EC1911190CB5F8AE4D536031AC14609 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AEF791628D292DAEE22972E01BD73D96 /* Resources */ = {
+		A383E0FF1FF0854433C350FA3B1DBF56 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -514,7 +520,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		131377F6E14E7FDF5F577B531DDF9DB4 /* [CP] Copy XCFrameworks */ = {
+		263733CE836D3BCA394F01A8A07D1150 /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -553,13 +559,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9BC05420BBB68055283539992065B8B5 /* Sources */ = {
+		EE0D5BF6D991B4E3672E56278B1DCD17 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACAEDEB1B50B02F6D0E4E1DC17B93C57 /* CosmosMobLogin-dummy.m in Sources */,
-				31E569112AB9957200FFFCBA /* CosmosMobLoginClient.m in Sources */,
-				C92AA57CB94439D7D80D2411072A29E2 /* ReplaceMe.m in Sources */,
+				3BC96734F71BCF3A31154AE8DB521F19 /* CosmosMobLogin-dummy.m in Sources */,
+				31E569152AB999B900FFFCBA /* CosmosMobLogin.m in Sources */,
+				EE6AE57A76E53FAE1F5F865182F81A4C /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -571,6 +577,12 @@
 			name = "Pods-CosmosMobLogin_Example";
 			target = 74A541F44B4D06D403BA58B9956E49BA /* Pods-CosmosMobLogin_Example */;
 			targetProxy = 0C67D1DDF1D4A389AABF2E4C3F2C04CA /* PBXContainerItemProxy */;
+		};
+		3065AF24309045C11311BE7C4A999422 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = mob_secverify;
+			target = 21C43365111AD11B075C5191E983EF9D /* mob_secverify */;
+			targetProxy = 4F7BDBE0ECFFB40A690BBB37163637BB /* PBXContainerItemProxy */;
 		};
 		5DD4A98C7BD1FC25579BB6470EB44B58 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -590,18 +602,18 @@
 			target = 38986664EBE0043A3614949E53335639 /* MOBFoundation */;
 			targetProxy = A3CBAD360F17981F1989323D6C1C2FCB /* PBXContainerItemProxy */;
 		};
-		EBA30B94C88E4045AD09CB7A97F0CAF8 /* PBXTargetDependency */ = {
+		ED5E1B3D03BD26E856EF5652225D4078 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MOBFoundation;
 			target = 38986664EBE0043A3614949E53335639 /* MOBFoundation */;
-			targetProxy = 5B57FA91D67E42EBE113AD39A29D6F38 /* PBXContainerItemProxy */;
+			targetProxy = 982FA3ECB316087999CD2D7FF5FB0BB8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		00D52D4054EAB8321DDA46C0A271DA01 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0ECF5362372AB139F9E56A984543D8E /* Pods-CosmosMobLogin_Tests.release.xcconfig */;
+			baseConfigurationReference = 79A84B21D7A72D54A1382BDC4B4ED835 /* Pods-CosmosMobLogin_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -633,9 +645,22 @@
 			};
 			name = Release;
 		};
+		049CAB292291DDC41538B4631EAEC878 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16253F5D10165F0CBF84DE5CA5E217C1 /* mob_secverify.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		1D49E7FA9DE63268EDD8C46CF81AF5B6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20B1DC26CF1FA77D8EAE9CB49E44D761 /* Pods-CosmosMobLogin_Example.release.xcconfig */;
+			baseConfigurationReference = 7983AEFF6B259B2BBC61C249DC3634A8 /* Pods-CosmosMobLogin_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -667,70 +692,7 @@
 			};
 			name = Release;
 		};
-		238F3FD4E4C352A50E5884C653D80C31 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D7AC76D2FE0EFBDD5F9F62D6F101EEA /* CosmosMobLogin.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CosmosMobLogin/CosmosMobLogin-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CosmosMobLogin/CosmosMobLogin-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CosmosMobLogin/CosmosMobLogin.modulemap";
-				PRODUCT_MODULE_NAME = CosmosMobLogin;
-				PRODUCT_NAME = CosmosMobLogin;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		49E775FAE9A12535F02A1004C2E75E63 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2197F6CE9B9A8090FF1FE0C784141F5A /* CosmosMobLogin.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CosmosMobLogin/CosmosMobLogin-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CosmosMobLogin/CosmosMobLogin-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CosmosMobLogin/CosmosMobLogin.modulemap";
-				PRODUCT_MODULE_NAME = CosmosMobLogin;
-				PRODUCT_NAME = CosmosMobLogin;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		578F0B8E319B8C7CDF6D3235366BC736 /* Release */ = {
+		418A6548566148263A639EAD088B149F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 04DBC62DA4D62D57F72E97255B60C730 /* mob_secverify.release.xcconfig */;
 			buildSettings = {
@@ -746,7 +708,7 @@
 		};
 		5BCC68924C9CDB21E694B9C644F51701 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7493745BA9A72E28A6E5984AE96D76EE /* Pods-CosmosMobLogin_Tests.debug.xcconfig */;
+			baseConfigurationReference = E6332362F9C54F87E35702171EA79134 /* Pods-CosmosMobLogin_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -840,7 +802,7 @@
 		};
 		993CF5B60978F3C3FFCB02C199F2BF7D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E2EE114122DCA03DE17F8A3506C38D4 /* Pods-CosmosMobLogin_Example.debug.xcconfig */;
+			baseConfigurationReference = F2FA5E84314584FB1B2E418385505353 /* Pods-CosmosMobLogin_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -871,9 +833,23 @@
 			};
 			name = Debug;
 		};
-		B99D4574A172A04382792A0D96CE94E0 /* Debug */ = {
+		BD1A784B6DB47439D8E6B24187860F0D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16253F5D10165F0CBF84DE5CA5E217C1 /* mob_secverify.debug.xcconfig */;
+			baseConfigurationReference = 8AC9D2FC11FE403036A02655377DB47E /* MOBFoundation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFA5B1D130D8184BF84090191E014B2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2227FD6076971DED0F092379904820C /* MOBFoundation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -950,32 +926,70 @@
 			};
 			name = Debug;
 		};
-		F11F00AC5D43620B2617C1434AAC2B0F /* Release */ = {
+		EB0A51F8A86BDD43ACDF01EE5B6B19F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8AC9D2FC11FE403036A02655377DB47E /* MOBFoundation.release.xcconfig */;
+			baseConfigurationReference = 1D7AC76D2FE0EFBDD5F9F62D6F101EEA /* CosmosMobLogin.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CosmosMobLogin/CosmosMobLogin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CosmosMobLogin/CosmosMobLogin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/CosmosMobLogin/CosmosMobLogin.modulemap";
+				PRODUCT_MODULE_NAME = CosmosMobLogin;
+				PRODUCT_NAME = CosmosMobLogin;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		FEDD379B1C62C3D77AC205D41D5667CA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2227FD6076971DED0F092379904820C /* MOBFoundation.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		ECD38C3802E8196A4ECB98CF39D2761A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2197F6CE9B9A8090FF1FE0C784141F5A /* CosmosMobLogin.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CosmosMobLogin/CosmosMobLogin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CosmosMobLogin/CosmosMobLogin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/CosmosMobLogin/CosmosMobLogin.modulemap";
+				PRODUCT_MODULE_NAME = CosmosMobLogin;
+				PRODUCT_NAME = CosmosMobLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -985,6 +999,15 @@
 			buildConfigurations = (
 				993CF5B60978F3C3FFCB02C199F2BF7D /* Debug */,
 				1D49E7FA9DE63268EDD8C46CF81AF5B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		135E2B2D4C58202B45F2D974127459CB /* Build configuration list for PBXAggregateTarget "mob_secverify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049CAB292291DDC41538B4631EAEC878 /* Debug */,
+				418A6548566148263A639EAD088B149F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1007,29 +1030,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9B33C3C8202FFE2203CAFCEB78B4ACD5 /* Build configuration list for PBXAggregateTarget "MOBFoundation" */ = {
+		7ACFA2A3253F1AFF7B0D95691C39E655 /* Build configuration list for PBXNativeTarget "CosmosMobLogin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FEDD379B1C62C3D77AC205D41D5667CA /* Debug */,
-				F11F00AC5D43620B2617C1434AAC2B0F /* Release */,
+				EB0A51F8A86BDD43ACDF01EE5B6B19F2 /* Debug */,
+				ECD38C3802E8196A4ECB98CF39D2761A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C452368F6E9D83414A0271EB76D127A4 /* Build configuration list for PBXAggregateTarget "mob_secverify" */ = {
+		FB0155471B0706A7F6B0D884ACB4BBF5 /* Build configuration list for PBXAggregateTarget "MOBFoundation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B99D4574A172A04382792A0D96CE94E0 /* Debug */,
-				578F0B8E319B8C7CDF6D3235366BC736 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EDF94B0AEA648B2772A950F96DD99F3C /* Build configuration list for PBXNativeTarget "CosmosMobLogin" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				238F3FD4E4C352A50E5884C653D80C31 /* Debug */,
-				49E775FAE9A12535F02A1004C2E75E63 /* Release */,
+				BFA5B1D130D8184BF84090191E014B2D /* Debug */,
+				BD1A784B6DB47439D8E6B24187860F0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

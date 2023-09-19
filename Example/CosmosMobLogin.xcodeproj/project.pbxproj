@@ -65,7 +65,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DD8F2A9403DAE607166B631 /* Pods_CosmosMobLogin_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CosmosMobLogin_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		985F7EB96A2D3DD9FE77D65B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		9C0F8F6EF3F70747D374DA97 /* CosmosMobLogin.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CosmosMobLogin.podspec; path = ../CosmosMobLogin.podspec; sourceTree = "<group>"; };
+		9C0F8F6EF3F70747D374DA97 /* CosmosMobLogin.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CosmosMobLogin.podspec; path = ../CosmosMobLogin.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FE0694E2EC0A1DE8109AD89C /* Pods_CosmosMobLogin_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CosmosMobLogin_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -207,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				2156A7310AD2B29EE4944EDA /* [CP] Embed Pods Frameworks */,
 				3DBEDA5A6EF5801835CCD7C8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -252,6 +251,7 @@
 						DevelopmentTeam = 4PDZX9C6SY;
 					};
 					6003F5AD195388D20070C39A = {
+						DevelopmentTeam = 4PDZX9C6SY;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -319,24 +319,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2156A7310AD2B29EE4944EDA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CosmosMobLogin_Example/Pods-CosmosMobLogin_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CosmosMobLogin/CosmosMobLogin.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CosmosMobLogin.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CosmosMobLogin_Example/Pods-CosmosMobLogin_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3DBEDA5A6EF5801835CCD7C8 /* [CP] Copy Pods Resources */ = {
@@ -523,7 +505,7 @@
 				GCC_PREFIX_HEADER = "CosmosMobLogin/CosmosMobLogin-Prefix.pch";
 				INFOPLIST_FILE = "CosmosMobLogin/CosmosMobLogin-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yyds.Secverify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -540,7 +522,7 @@
 				GCC_PREFIX_HEADER = "CosmosMobLogin/CosmosMobLogin-Prefix.pch";
 				INFOPLIST_FILE = "CosmosMobLogin/CosmosMobLogin-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yyds.Secverify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -552,6 +534,7 @@
 			baseConfigurationReference = 1A8FB55849EBC825B842E3DC /* Pods-CosmosMobLogin_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4PDZX9C6SY;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -564,7 +547,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yyds.Secverify.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CosmosMobLogin_Example.app/CosmosMobLogin_Example";
@@ -577,6 +560,7 @@
 			baseConfigurationReference = 33D56FB10E027EF16482D49B /* Pods-CosmosMobLogin_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4PDZX9C6SY;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -585,7 +569,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yyds.Secverify.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CosmosMobLogin_Example.app/CosmosMobLogin_Example";
