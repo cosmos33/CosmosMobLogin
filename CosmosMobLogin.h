@@ -8,8 +8,13 @@
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
+typedef void(^CosmosMobResultHander)(NSDictionary * _Nullable resultDic, NSError * _Nullable error);
 
 @interface CosmosMobLogin : NSObject
+
++ (void)preLogin:(nullable CosmosMobResultHander)handler;
+
+
 
 @end
 

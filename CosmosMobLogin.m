@@ -6,7 +6,30 @@
 //
 
 #import "CosmosMobLogin.h"
+#import <SecVerify/SVSDKHyVerify.h>
+
 
 @implementation CosmosMobLogin
+
+
+
+
++ (void)preLogin:(CosmosMobResultHander)handler
+{
+    [SVSDKHyVerify preLogin:^(NSDictionary * _Nullable resultDic, NSError * _Nullable error) {
+
+        //判断预取号是否成功
+        if (error == nil && resultDic != nil && [resultDic isKindOfClass:NSDictionary.class]) {
+            //成功
+            handler(resultDic,error);
+        } else {
+            //失败
+            handler(resultDic,error);
+        }
+    }];
+}
+
+
+
 
 @end

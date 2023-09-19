@@ -6,6 +6,7 @@
 //
 
 #import "CosmosMobLoginClient.h"
+#import "cos"
 
 @implementation CosmosMobLoginClient
 
