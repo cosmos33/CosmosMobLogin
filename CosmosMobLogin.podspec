@@ -42,5 +42,6 @@ TODO: Add long description of the pod here.
   s.static_framework = true
 
   s.dependency 'mob_secverify'
+#  s.vendored_frameworks = 'Frameworks/*'
 
 end

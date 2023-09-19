@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "CosmosMobLogin.h"
+#import "CosmosMobLoginClient.h"
 
 FOUNDATION_EXPORT double CosmosMobLoginVersionNumber;
 FOUNDATION_EXPORT const unsigned char CosmosMobLoginVersionString[];
