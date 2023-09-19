@@ -1,0 +1,6 @@
+framework module CosmosMobLogin {
+  umbrella header "CosmosMobLogin-umbrella.h"
+
+  export *
+  module * { export * }
+}

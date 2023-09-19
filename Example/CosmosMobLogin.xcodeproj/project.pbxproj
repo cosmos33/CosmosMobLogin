@@ -209,6 +209,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				2156A7310AD2B29EE4944EDA /* [CP] Embed Pods Frameworks */,
+				3DBEDA5A6EF5801835CCD7C8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -333,6 +334,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CosmosMobLogin_Example/Pods-CosmosMobLogin_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DBEDA5A6EF5801835CCD7C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CosmosMobLogin_Example/Pods-CosmosMobLogin_Example-resources.sh",
+				"${PODS_ROOT}/mob_secverify/SecVerify/SecVerify.bundle",
+				"${PODS_ROOT}/mob_secverify/SecVerify/PlatformSDK/Telecom/EAccountOpenPageResource.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SecVerify.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EAccountOpenPageResource.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CosmosMobLogin_Example/Pods-CosmosMobLogin_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FEC0F906D7FFB9CB58E7C49F /* [CP] Check Pods Manifest.lock */ = {

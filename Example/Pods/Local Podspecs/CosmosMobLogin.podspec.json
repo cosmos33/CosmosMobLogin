@@ -1,0 +1,22 @@
+{
+  "name": "CosmosMobLogin",
+  "version": "0.1.0",
+  "summary": "A short description of CosmosMobLogin.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xtra/CosmosMobLogin",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xtra": "xtra@msn.c.n"
+  },
+  "source": {
+    "git": "https://github.com/xtra/CosmosMobLogin.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "CosmosMobLogin/Classes/**/*"
+}

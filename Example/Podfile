@@ -10,4 +10,6 @@ target 'CosmosMobLogin_Example' do
 
     
   end
+  
+  pod 'mob_secverify'
 end
