@@ -7,12 +7,21 @@
 //
 
 #import "COSMOSMOBAppDelegate.h"
+#import <CosmosMobLogin/CosmosMobLoginClient.h>
 
 @implementation COSMOSMOBAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [CosmosMobLoginClient registerAppKey:@"moba6b6c6d6" appSecret:@"b89d2427a3bc7ad1aea1e1e8c1d36bf3" privacyLevel:2];
+    [CosmosMobLoginClient uploadPrivacyPermissionStatus:YES onResult:^(BOOL success) {
+            
+    }];
+    
+    
+    
     return YES;
 }
 

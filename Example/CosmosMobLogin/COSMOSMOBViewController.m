@@ -7,7 +7,7 @@
 //
 
 #import "COSMOSMOBViewController.h"
-#import <CosmosMobLogin/CosmosMobLogin.h>
+#import <CosmosMobLogin/CosmosMobLoginClient.h>
 
 @interface COSMOSMOBViewController ()
 
@@ -19,7 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    
+
     UIButton *btn = [[UIButton alloc] init];
     btn.frame = CGRectMake(50, 100, 100, 50);
     btn.backgroundColor = UIColor.blackColor;
@@ -28,7 +28,7 @@
 }
 
 - (void)btnClicked {
-    [CosmosMobLogin preLogin:^(NSDictionary * _Nullable resultDic, NSError * _Nullable error) {
+    [CosmosMobLoginClient preLogin:^(NSDictionary * _Nullable resultDic, NSError * _Nullable error) {
         
     }];
 }

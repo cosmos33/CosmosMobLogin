@@ -20,9 +20,6 @@
   },
   "source_files": "CosmosMobLogin/Classes/**/*",
   "static_framework": true,
-  "dependencies": {
-    "mob_secverify": [
-
-    ]
-  }
+  "vendored_frameworks": "Frameworks/*",
+  "libraries": "c++"
 }
