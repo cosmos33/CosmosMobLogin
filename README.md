@@ -18,6 +18,7 @@ iOS from 13.0
 ## Installation
 
 CosmosMobLogin is available through [CocoaPods](https://cocoapods.org). 
+
 To install it, simply add the following line to your Podfile:
 
 ```ruby
@@ -35,6 +36,17 @@ CosmosMobLoginClient.uploadPrivacyPermissionStatus(true) { success in
 
 ```
 
+auth app
+
+```swift
+
+CosmosMobLoginClient.preLogin({resultDict,error in
+})
+        
+CosmosMobLoginClient.loginAuth { result, erro in
+}
+
+```
 
 
 ## Author
