@@ -8,6 +8,7 @@
 ## Introduction
 
 A warrper for mob one click login.
+
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
@@ -16,8 +17,8 @@ iOS from 13.0
 
 ## Installation
 
-CosmosMobLogin is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+CosmosMobLogin is available through [CocoaPods](https://cocoapods.org). 
+To install it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'CosmosMobLogin'
